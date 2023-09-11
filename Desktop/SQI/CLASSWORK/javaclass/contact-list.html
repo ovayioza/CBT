@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT-LIST</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<Script>
+    //event listener
+    //functions
+    var contactArray = [];
+
+
+    function saveContact(){
+        // alert("Hello, I am saving now")
+        // enter the document, look for an element with ID: nameInput, collect the value, and put it inside a bucket called "name"
+        // let contactName = document.getElementById('nameInput').value;
+        // let contactPhone = document.getElementById('phoneInput').value;
+
+        // alert(name);
+        //objects and arrays
+
+        //let object = {key:value,key:value,key:value,};
+        // let contact = {name: contactName.toUpperCase(), phone: contactPhone};
+        
+        contactArray.push(contact);
+        console.log(contactArray);
+
+        document.getElementById('nameInput').value = ""
+        document.getElementById('phoneInput').value = ""
+        
+
+        document.getElementById('contactBox').innerHTML = "";
+        contactArray.map((c)=>{
+            document.getElementById('contactBox').innerHTML += `<p class"p-2 shadow">${contact.name} (${contact.phone})</p>`;
+        })
+
+        
+
+        //index (indices)
+        //
+        //let students = [""Drey", "Oladipupo", "Sekinat", "Muhammed", "Hauwa", "Favour"];
+        //console.log(students);
+         //console.log(students. length);
+         //console.log(student[7]);
+
+         // // Methods
+         // Student.push("Nana")
+         // Student.push("Yusuf")
+         // Student.push("Hameed")
+         // Student.push("Oluwaseun")
+
+
+    }
+</Script>
+<body>
+   <div class="container">
+    <div class="row">
+        <div class="col-5 mx-auto shadow mt-5" style="height:80vh">
+         <h3 class="pt-3 ps-3">Contact Manager</h3>
+         <hr>
+         <div class="row p-2">
+            <input placeholder="Contact name" class="form-control col me-1">
+            <input placeholder="Phone number" class="form-control col me-1">
+            <button class="btn btn-success col" onclick="saveContact()">Save</button>
+         </div>
+         <hr>
+         <div id="contactBox">
+
+         </div>
+        </div>
+    </div>
+   </div> 
+</body>
+</html>

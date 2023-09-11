@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <input type="number" id="input1">
+  <p id="p1"></p>
+</body>
+<script>
+    //Conditional Statement
+    //Conditional Statements are used to carry out certain operations in our program if certain conditions are being met (or not being met)
+   //let num = prompt("Enter your number: ");
+   // let testNum = Number(num);
+    //if (testNum % 2 === 0) {
+       // alert}
+
+
+// let age = prompt("Enter your age: ");
+// let testAge = Number(age);
+// if (testAge < 13 ) {
+//     alert("You are a child")
+// }else if(testAge < 18){
+//     alert("You are not eligible to vote")
+// }else{
+//     alert("You are a legal adult")
+// }
+
+//Switch case
+let day = prompt("Enter your day: ");
+let testDay = Number(day);
+let p1 = document.getElementById("p1")
+
+// switch (testDay) {
+// case 0:
+//     alert("The day is Sunday")
+//     break;
+// case 1:
+//     alert("The day is Monday")
+//     break;
+// case 2:
+//     alert("The day is Tuesday")
+//     break;
+// case 3:
+//     alert("The day is Wednesday")
+//     break;
+// case 4:
+//     alert("The day is Thursdayday")
+//     break;
+// case 5:
+//     alert("The day is Friday")
+//     break;
+// case 6:
+//     alert("The day is Saturday")
+//     break;
+// default:
+//     alert("This is an invalid day")
+//     break;
+// }
+
+switch (testDay) {
+case 0:
+    p1.innerHTML = "The day is Sunday";
+    break;
+case 1:
+    p1.innerHTML = "The day is Monday";
+    break;
+case 2:
+    p1.innerHTML = "The day is Tuesday";
+    break;
+case 3:
+    p1.innerHTML = "The day is Wednesday";
+    break;
+case 4:
+    p1.innerHTML = "The day is Thursday";
+    break;
+case 5:
+    p1.innerHTML = "The day is Friday";
+    break;
+case 6:
+    p1.innerHTML = "The day is Saturday";
+    break;
+default:
+    p1.innerHTML = "The day is an invalid day";
+    break;
+}
+</script>
+</html>

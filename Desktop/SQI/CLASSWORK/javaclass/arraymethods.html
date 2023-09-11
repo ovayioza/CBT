@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //Array Methods in Javascript
+    //pop wll remove from the end
+    //push will add to the end
+    //shift will remove from the beginning
+    //unshift will add to the beginning
+    // ...(spread operator- used to spread the content in that array in another one)
+    const test = [1,2,3,4,5,6,7,8,9,0];
+    consol.log(test.toString());
+
+    console.log(test.join(" "))
+
+    const test2 = ["Banana", "Apple", "Orange", "Pineapple", "Watermelon", "Carrot"];
+    console.log(test2.pop());
+    console.log(test2);
+    console.log(test2.push("Strawberry"));
+    console.log(test2);
+    test2.shift();
+    console.log(test2);
+    test2.unshift("Guava");
+    console.log(test2);
+
+    test2[3] = "Paw-paw";
+    console.log(test2);
+
+    test2[test2.length] = "fish"
+    console.log(test2)
+
+    const test3 = [1,2,3,4,5];
+    const test4 = [6,7,8,9,0];
+    const test5 = test3.concat(test4)
+    console.log(test5);
+
+    const test6 = ["Chelsea", "Liverpool", "Arsenal", "Real Madrid", "Barcelona", "Athletico de Madrid"];
+    const test7 = test6.slice(3);
+    console.log(test7);
+    const test8 = test6.slice(0,3);
+    console.log(test8);
+
+    const test9 = ["Blue", "Red", "Grey", "Black", "Violet", "White", "Brown"];
+    test9.splice(3, 1, "Green", "Indigo", "Nude");
+    console.log(test9);
+
+    const test10 = ["Beans", "Rice", "Bread", "Spaghetti", "Yam", "Potatoes"];
+    test9.splice(2,1);
+    console.log(test10);
+
+    //Array and object destructuring in javascript.
+    let test11 = ["Nana", "Semilore", "Obinnaa", "Dara", "Pelumi"];
+
+    let [Nana, Semilore, Obinnaa, Dara, Pelumi] = test11;
+    console.log(Pelumi);
+
+    const ram = {
+        name: "Ram",
+        age: 1111,
+        isFood: true,
+        isPet: false,
+        color: "White"
+    }
+
+    let {name, age, color} = ram
+    console.log(color)
+
+    //Spread Operators
+    let arr1 = [1,2,3,4,5];
+    let arr2 = [...arr1, 6, 7, 8, 9, 0]
+    console.log(arr2);
+
+    let obj1 = {name: "test", age: 5555, color: "Black"}
+    let obj2 = {...obj1, isBig: undefined, club: "Liverpool"};
+    console.log(obj2)
+
+</script>
+</html>

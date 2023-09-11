@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <input type="text" id="input1">
+    <button onclick="changeColor()">Click me</button>
+    <div id="div1"></div>
+    
+</body>
+<script>
+    //Fuctions in Javascript
+    function addNum(num1, num2){
+        let addition = num1 + num2;
+        let subtraction = num1 - num2;
+        let division = num1 / num2;
+        let multiplication = num1 * num2;
+        let mod = num1 % num2;
+        return [addition, subtraction, division, multiplication, mod]
+ }
+ // addNum(20, 5)
+ let test = addNum(30, 15);
+ console.log(test);
+
+
+ let input1 = document.getElementById("input1");
+ let div1 = document.getElementById("div1");
+ function changeColor() {
+    let color = input1.value;
+    div1.style.backgroundColor = color;
+    div1.innerText = `The background color of this div is ${color}`;
+ }
+
+    // const addNum2 = function(){
+
+    // }
+
+    // const addNum3 = () => {
+
+    // }
+</script>
+</html>

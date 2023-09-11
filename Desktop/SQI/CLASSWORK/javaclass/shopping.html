@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shopping.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-5 mx-auto shadow mt-5" style="height:60vh" id="pp">
+                <h3 class="pt-3 ps-3" id="kl">Shopping List</h3>
+                <hr>
+                <div class="col p-2">
+                    <input placeholder="Items" class="form-control col me-1" id="itemin">
+                    <br>
+                    <input placeholder="Price" class="form-control col me-1" id="pricein">
+                    <br>
+                    <input placeholder="Quantity" class="form-control col me-1" id="quantin">
+                    <br>
+                    <button class="btn btn-success col" id="subbtn" onclick="subbutn()">Submit</button>
+                    <br>
+                    <br>
+                    <br>
+                    <p id="totout"> TOTAL</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bigbelow">
+        <div class="result">
+            <p id="p1">ITEM:</p>
+            <br>
+            <p id="p2">PRICE:</p>
+            <br>
+            <p id="p3">QUANTITY:</p>
+            <br>
+            <p id="p4">SUB-TOTAL:</p>
+            <br>
+            <button id="edibtn" onclick ="edititem( )">EDIT</button>
+            <br>
+            <button  id="delbtn" onclick ="deleteItem()">DELETE</button>
+        </div>
+     </div>
+
+</body>
+<script>
+
+
+
+        const arr1 = [];
+        const bigbelow = document.getElementById("bigbelow");
+
+        function subbutn() {
+            let itemin = document.getElementById("itemin").value;
+            let pricein = document.getElementById("pricein").value;
+            let quantin = document.getElementById("quantin").value;
+            let subtotout = pricein * quantin;
+
+            let tot = arr1.reduce((accumulator, item) => {
+                return item.total + accumulator;
+            }, 0);
+
+            let obj1 = { name: itemin, price: pricein, quantity: quantin, total: subtotout };
+            arr1.push(obj1);
+            document.getElementById("totout").innerHTML = `TOTAL = ${tot}`;
+            updateItemList(); 
+        }
+
+        function edititem(index) {
+            console.log(index);
+            if (index !== -1) {
+                const newItemName = prompt("Enter new item name:", arr1[index].name);
+                const newItemPrice = parseFloat(prompt("Enter new item price:", arr1[index].price));
+                const newItemQuantity = parseFloat(prompt("Enter new item quantity:", arr1[index].quantity));
+
+                if (newItemName && !isNaN(newItemPrice) && !isNaN(newItemQuantity)) {
+                    const newSubtotal = newItemPrice * newItemQuantity;
+
+                    arr1[index].name = newItemName;
+                    arr1[index].price = newItemPrice;
+                    arr1[index].quantity = newItemQuantity;
+                    arr1[index].total = newSubtotal;
+
+                    const itemContainer = document.querySelectorAll('.result')[index];
+                    itemContainer.querySelector('#p1').innerText = `ITEM: ${newItemName}`;
+                    itemContainer.querySelector('#p2').innerText = `PRICE: ${newItemPrice}`;
+                    itemContainer.querySelector('#p3').innerText = `QUANTITY: ${newItemQuantity}`;
+                    itemContainer.querySelector('#p4').innerText = `SUB-TOTAL: ${newSubtotal.toFixed(2)}`;
+
+                    console.log(arr1);
+                } else {
+                    alert("Invalid input. Please provide valid values.");
+                }
+            }
+        }
+
+        function deleteItem(index) {
+            if (index !== -1) {
+                arr1.splice(index, 1);
+                updateItemList();
+            }
+        }
+
+        function updateItemList() {
+            let items = "";
+            arr1.forEach((item, index) => {
+                items += `
+                    <div class="result">
+                        <p id="p1">ITEM: ${item.name}</p>
+                        <br>
+                        <p id="p2">PRICE: ${item.price}</p>
+                        <br>
+                        <p id="p3">QUANTITY: ${item.quantity}</p>
+                        <br>
+                        <p id="p4">SUB-TOTAL: ${item.total.toFixed(2)}</p>
+                        <br>
+                        <button id="edibtn" onclick="edititem(${index})">EDIT</button>
+                        <br>
+                        <button id="delbtn" onclick="deleteItem(${index})">DELETE</button>
+                    </div>`;
+            });
+            bigbelow.innerHTML = items;
+        }
+    </script>
+</html>

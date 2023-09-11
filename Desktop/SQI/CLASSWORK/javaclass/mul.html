@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="in1">
+        <input type="text" id="in2">
+        <button id="" onclick="multi()">click me</button>
+    </div>
+    <div class="ff"><p id="out2"></p></div>
+</body>
+<script>
+    let in1 = document.getElementById("in1");
+    let in2 = document.getElementById("in2");
+    let out2 = document.getElementById("out2");
+
+    function multi(){
+        let s = "";
+
+        for(let p = 1;  p <= in2.value; p++){
+            let result = in1.value = p;
+
+            s +=`${in1.value} = ${p} = ${result}<br><br><br>`;
+        }
+        out2.innerHTML = m;
+    }
+    </script>
+</html>

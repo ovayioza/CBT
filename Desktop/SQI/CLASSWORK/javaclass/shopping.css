@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#pp{
+    width: 700px;
+}
+#kl{
+    margin-left: 190px;
+    font-size:45px;
+    font-weight: lighter;
+}

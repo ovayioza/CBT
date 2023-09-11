@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //Loops in javascript
+    const arr1 = [1,2,3,4,5,6,7,8,9];;
+    // console.log(arr1[0] * 3)
+
+    for (let i = 0; i < arr1.length; i++) {
+        const element = arr1[i];
+        console.log(element * 3)
+    }
+
+
+
+let obj1 = {
+    name: "testRam",
+    age: 1111,
+    color: "blue",
+    isLactoseIntolerant: false,
+    food: "Beans"
+}
+console.log(obj1.name)
+
+for (i in obj1) {
+    console.log(obj1[i])
+}
+
+
+
+let index = 0
+while(index <= 10){
+    console.log(index * 5);
+    index++;
+}
+
+let test = 0
+do{
+    console.log(test * 7);
+    test ++;
+}while(test <= 10)
+</script>
+</html>

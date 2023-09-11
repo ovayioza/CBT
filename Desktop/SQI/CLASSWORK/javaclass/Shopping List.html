@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+</head>
+<body>
+   <main>
+    <h1>Shopping Lists</h1>
+    <input id="item" type="text" placeholder="Item"><br><br>
+    <input id="qty" type="number" placeholder="Quantity"><br><br>
+    <input id="price" type="number" placeholder="Price"><br><br>
+    <button onclick="addToList()">Click me</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="disp"></tbody>
+    </table>
+   </main>
+
+   <button onclick="plus()">+</button>
+  <span id="number"></span>
+  <button onclick="minus()">-</button>
+
+  <button>prev</button>
+  <span id="errm"></span>
+   <button>next</button>
+
+   <div id="card" class="card">
+   <input id="editItem" type="text" placeholder="Item"><br><br>
+   <input id="editQty" type="number" placeholder="Quantity"><br><br>
+   <input id="editPrice" type="number" placeholder="Price"><br><br>
+   <button onclick="editTodo()">Save</button>
+   </div>
+</body>
+<script>
+let arr2 = []
+let arr1 = ["me", "you", "him", "she", "they", "them"];
+ermm.innerHTML = arr1[1]
+
+let list = []
+let qty = document.getElementById("qty");
+let item = document.getElementById("item");
+let price = document.getElementById("price");
+let disp = document.getElementById("disp");
+
+
+function addToList(){
+    let data = {
+        item: item.value,
+        qty: qty.value,
+        price: price.value,
+        
+    }
+    list.push(data)
+    console.log(list);
+    display()
+}
+function display(){
+
+}
+let num = 0;
+number.innerHTML = num;
+function plus(){
+ num++ 
+ number.innerHTML = num; 
+}
+</script>
+</html>

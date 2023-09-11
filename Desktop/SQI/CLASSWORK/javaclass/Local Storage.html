@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //Local Storage in Javascript
+    localStorage.setItem("name", "Obinna");
+    let name = localStorage.getItem("name")
+    console.log(name)
+    // localStorage.removeItem("name")
+
+    let testArr = [
+        { name: "TestRam1", age: 1111, color: "Grey"},
+        { name: "TestRam2", age: 1112, color: "Black"},
+        { name: "TestRam3", age: 1113, color: "White"},
+        { name: "TestRam4", age: 1114, color: "Blue"},
+        { name: "TestRam5", age: 1115, color: "Green"},
+        { name: "TestRam6", age: 1116, color: "Purple"},
+        ]
+
+        let stringArr = JSON.stringify(testArr);
+        localStorage.setItem("testArr", stringArr);
+        let newTest = localStorage.getItem("testArr");
+        let testArr2 = JSON.parse(newTest);
+        console.log(testArr2);
+
+        localStorage.clear()
+
+</script>
+</html>

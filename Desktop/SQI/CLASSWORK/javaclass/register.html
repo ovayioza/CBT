@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #yh{
+        width: 70px;
+        height: 20px;
+    }
+</style>
+<body>
+    <div>
+    <h1>Input a number up to ten</h1>
+    <input id="reg" type="number" placeholder="input your number" > 
+   <span><button id="yh" onclick="register()" >click me</button></span>
+    </div>
+    <button onclick="interClear()">Clear
+    </button>
+</body>
+<script>
+    // let img = document.getElementById("img");
+    // let imgArr = ["tesla"]
+    // let index = 0;
+    // img.src = imgArr[index]
+    // let reg = document.getElementById("reg")
+
+    // console.log(Math.floor(Math.random()* 100));
+    // function register(){
+    //     if(reg.input == Math.random() *100){
+    //         alert("Number matches")
+    //     }else if(reg.input !== Math.random() *100){
+    //         alert("Number does not match")
+    //     }
+
+    // }
+
+setTimeout(()=>{
+    alert("you delayed me")
+},3000)
+
+let theLog = setInterval(()=>{
+    console.log("Something");
+    console.log("line 2");
+}, 2000)
+
+function interClear(){
+    clearInterval(theLog)
+}
+</script>
+</html>

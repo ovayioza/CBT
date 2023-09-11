@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi</title>
+    <style>
+        .table{
+            display: block;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        #inp1{
+background-color:rgba(128, 128, 128, 0.692);
+width: 150px;
+height: 40px;
+border: 1px solid black;
+outline: none;
+border-radius: 5px;
+        }
+        #inp2{
+background-color:rgba(128, 128, 128, 0.692);
+width: 150px;
+height: 40px; 
+border: 1px solid black;
+outline: none;
+border-radius: 5px;
+        }
+        #df{
+            width: 100px;
+            height: 43px;
+            background-color: rgb(0, 0, 0);
+            border: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" id="inp1">
+    <input type="number" id="inp2">
+    <button onclick="calc()" id="df">Click Me</button>
+    <div id="show" class="table"></div>
+</body>
+</html>
+<script>
+    let inp1 = document.getElementById("inp1")
+    let inp2 = document.getElementById("inp2")
+    let x = inp1.value
+
+    function calc(){
+        for(let i = 1; i <=inp2.value; i++){
+            let f = document.getElementById('show');
+            let multi= document.createElement('div');
+            let y = inp1.value * i;
+            let answer =`<p> ${inp1.value} x ${i} = ${y} </p>`
+            console.log(answer)
+
+            f.innerHTML+=answer;
+        }
+    }
+</script>

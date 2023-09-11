@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator2</title>
+    <link rel="stylesheet" href="calculator2.css">
+</head>
+<body>
+    
+    <input id="input" type="text">
+    <button onclick="numb(1)">1</button>
+    <button onclick="numb(2)">2</button>
+    <button onclick="numb(3)">3</button>
+    <button onclick="numb(4)">4</button>
+    <button onclick="numb(5)">5</button>
+    <button onclick="numb(6)">6</button>
+    <button onclick="numb(7)">7</button>
+    <button onclick="numb(8)">8</button>
+    <button onclick="numb(9)">9</button>
+    <button onclick="numb(0)">0</button>
+    <button onclick="signs('+')">+</button>
+    <button onclick="signs('-')">-</button>
+    <button onclick="signs('*')">*</button>
+    <button onclick="signs('/')">/</button>
+    <button onclick="equal()">=</button>
+    <button onclick="numb('.')">.</button>
+    <button onclick="ac()">AC</button>
+
+</body>
+<script>
+    let input = document.getElementById("input")
+    let firstVal;
+    let secondVal;
+    function numb(params){
+        input.value = input.value + params
+    }
+    function signs(val){
+        input.value = input.value + val 
+    }
+    function equal(){
+        let answer = input.value 
+        let result = eval(answer)
+        input.value = result
+    }
+    function ac() {
+        input.value = ""
+    }
+</script>
+</html>

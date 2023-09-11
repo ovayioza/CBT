@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #div1{
+        border: 1px solid black;
+        width: 500px;
+        height: 300px;
+        border: none;
+    }
+</style>
+<body>
+    <button onclick="greetings()">click me</button>
+    <p id="p1"></p>
+    <div id="div1">
+
+    </div>
+</body>
+<script>
+    let p1 = document.getElementById("p1");
+    let div1 = document.getElementById("div1");
+    function greetings(){
+        // let username = prompt("Enter your name: ")
+        // p1.innerHTML = `Hello $userName}, welcome to Javascript class`
+        let color = prompt("enter your color");
+        div1,innerHTML = `The background color of this div is ${color}`;
+        div1.style.backgroundColor = color;
+    }
+
+    console.log("Hello World")
+</script>
+</html>

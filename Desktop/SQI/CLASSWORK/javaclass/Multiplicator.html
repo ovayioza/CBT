@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicator</title>
+</head>
+<body>
+    <div id="container">
+        <input type="number" id="po">
+        <input type="number" id="pt">
+        <button id="" onclick="mul()">click me</button>
+    </div>
+    <div class="ff"><p id="me"></p></div>
+</body>
+<script>
+    let test = document.getElementById("po");
+    let p2 = document.getElementById("pt");
+    let me = document.getElementById("me");
+
+    function mul(){
+        let r = "";
+
+        for(let t = 1;  t <= p2.value; t++){
+            let mulres = test.value = t;
+
+            r +=`${test.value} = ${t} = ${mulres}<br><br><br>`;
+        }
+        me.innerHTML = r;
+    }
+    
+</script>
+</html>
