@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cal</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="body">
+        <p id="to2"></p>
+        <div id="to"></div>
+
+        <div class="part">
+            <button id="ty" onclick="del()">del</button>
+            <button class="not"></button>
+            <button class="not"></button>
+            <button id="ty" onclick="operators('*')">*</button>
+            <button id="ty" onclick="display('1')">1</button>
+            <button id="ty" onclick="display('2')">2</button>
+            <button id="ty" onclick="display('3')">3</button>
+            <button id="ty" onclick="operators('+')">+</button>
+            <button id="ty" onclick="display('4')">4</button>
+            <button id="ty" onclick="display('5')">5</button>
+            <button id="ty" onclick="display('6')">6</button>
+            <button id="ty" onclick="operators('-')">-</button>
+            <button id="ty" onclick="display('7')">7</button>
+            <button id="ty" onclick="display('8')">8</button>
+            <button id="ty" onclick="display('9')">9</button>
+            <button id="ty" onclick="operators('/')">/</button>
+            <button id="ty" onclick="display('0')">0</button>
+            <button class="not"></button>
+            <button class="not"></button>
+            <button id="ty" onclick="calculate()">=</button>
+        </div>
+    </div>
+</body>
+<script>
+    let to = document.getElementById("to")
+    let to2 = document.getElementById("to2")
+
+    let operator = '';4
+    let result = '';
+    const display = (a) => {
+        to.innerHTML +=a
+    }
+
+    function del() {
+        to.innerHTML = to.innerHTML.slice(0, -1)
+    }
+    function operators(a) {
+        to.innerHTML += '' + a +'';
+        operator = a
+    }
+    function calculate() {
+        let expression = to.innerHTML.trim();
+        let operands = expression.split('' + operator + '');
+        let x = parseFloat( operands[0])
+        let y = parseFloat( operands[1])
+        to2.innerHTML = result
+
+        switch (operator) {
+            case '+':
+                result = x + y
+                break;
+                case '-':
+                result = x - y
+                break;
+                case '/':
+                result = x / y
+                break;
+                case '*':
+                result = x * y
+                break;
+        
+        }
+    }
+</script>
+</html>
