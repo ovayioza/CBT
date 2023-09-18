@@ -1,0 +1,987 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.phd{
+    background-color: rgb(247,247,247);
+    height: 2500px;
+    width: 100%;
+}
+.gg{
+    width: 100%;
+    height: 82px;
+    background-color: white;
+}
+.ii{
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+.dd{
+    width: 810px;
+    height: 39px;
+    border: 1px solid grey;
+}
+.vc{
+    margin-left: 160px;
+    margin-top: -42px;
+}
+.gf{
+    width: 50px;
+    height: 41px;
+   position: absolute;
+   border: none;
+   background-color: black;
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.dd::placeholder{
+    font-size: 17px;
+    color: gray;
+    }
+    .bb{
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        margin-right: 10px;
+        border-radius: 100%;
+        border: none;
+        }
+    .bl{
+        width: 60px;
+        height: 30px;
+        background-color: transparent;
+        margin-left: 15px;
+        margin-top: 4px;
+        border: none;
+    }
+    .jj{
+        display: flex;
+    margin-left: 1050px;
+    margin-top: -40px;
+    }
+    .bc{
+        width: 35px;
+        height: 35px;
+        background-color: rgb(178,93,31);
+        margin-left:17px;
+        border-radius: 100%;
+        border: none;
+        }
+        .okkgg h3{
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        .vh:hover .okkgg h3{
+            color: rgba(0, 128, 0, 0.664);
+        }
+        .bc h1{
+            color: white;
+        }
+        .by{
+            width: 110px;
+            height: 45px;
+            background-color: rgba(0, 0, 0, 0.849);
+            margin-left: -30px;
+            position: absolute;
+            border-radius: 5px;
+            margin-top: -3px;
+            display: none;
+        }
+        .by h4{
+            color: white;
+            margin-top: 12px;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        .vh:hover .by{
+            display: block;
+        }
+        .bi{
+            width: 85px;
+            height: 45px;
+            background-color: rgba(0, 0, 0, 0.863);
+            margin-left: -20px;
+            position: absolute;
+            border-radius: 5px;
+            margin-top: -3px;
+            display: none;
+    }
+    .bi h4{
+        color: white;
+        margin-top: 12px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .vh:hover .bi{
+        display: block;
+    }
+    .bp{
+        width: 60px;
+        height: 45px;
+        background-color: rgba(0, 0, 0, 0.863);
+        margin-left: -9px;
+        position: absolute;
+        border-radius: 5px;
+        margin-top: -3px;
+        display: none;
+        }
+        .bp h4{
+            color: white;
+            margin-top: 12px;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        .vh:hover .bp{
+            display: block;
+        }
+        .jjj{
+            width: 100%;
+            height: 37px;
+            background-color:white;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 2px;
+            border-top: 0.5px solid grey;
+            border-bottom: 0.5px solid grey;
+            }
+           .pvc h5{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(0, 0, 0, 0.637);
+            font-weight: lighter;
+           }
+           .vjj h5{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:  rgba(0, 0, 0, 0.637);
+            font-weight: lighter;
+           }
+           .vjp h5{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:  rgba(0, 0, 0, 0.637);
+            font-weight:lighter ;
+           }
+           .vjp{
+            width: 90px;
+            height: 22px;
+            margin-top: 5px;
+            border: none;
+            background-color: transparent;
+           }
+           .gcc{
+            width: 145px;
+            height: 3px;
+            background-color: green;
+            margin-top: 6px;
+            display: none;
+           }
+           .frt:hover .gcc{
+            display: block;
+           }
+           .gck{
+            width: 115px;
+            height: 3px;
+            background-color: green;
+            margin-top: 6px;
+            display: none;
+           }
+           .frt:hover .gck{
+            display: block;
+           }
+           .gcg{
+            width: 90px;
+            height: 3px;
+            background-color: green;
+            margin-top: 6px;
+            display: none;
+           }
+           .frt:hover .gcg{
+            display: block;
+           }
+           .dou{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: 25px;
+            z-index: 1;
+           }
+           .frt:hover .dou{
+            display: block;
+           }
+           .dq{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: 5px;
+            z-index: 1;
+           }
+           .frt:hover .dq{
+            display: block;
+           }
+           .dr{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left:-285px;
+            z-index: 1;
+           }
+           .frt:hover .dr{
+            display: block;
+           }
+           .dv{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -470px;
+            z-index: 1;
+           }
+           .frt:hover .dv{
+            display: block;
+           }
+           .df{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -320px;
+            z-index: 1;
+           }
+           .frt:hover .df{
+            display: block;
+           }
+           .db{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -770px;
+            z-index: 1;
+           }
+           .frt:hover .db{
+            display: block;
+           }
+           .ddv{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -310px;
+            z-index: 1;
+           }
+           .frt:hover .ddv{
+            display: block;
+           }
+           .dj{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -1075px;
+            z-index: 1;
+           }
+           .frt:hover .dj{
+            display: block;
+           }
+           .ddl{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position:absolute;
+            margin-left: -535px;
+            z-index: 1;
+           }
+           .frt:hover .ddl{
+            display: block;
+           }
+           .pvc{
+            width:170px;
+            height: 22px;
+            margin-top: 5px;
+            border: none;
+            background-color: transparent;
+           }
+           .vjj{
+            width: 120px;
+            height: 22px;
+            margin-top: 5px;
+            border: none;
+            background-color: transparent;
+           }
+           .cara{
+            width: 400px;
+            height: 453px;
+            background-color: white;
+            border: 1px solid grey;
+           }
+           .ara{
+            width: 400px;
+            height: 380px;
+            background-color: white;
+            margin-top: 30px;
+            border: 1px solid grey;
+           }
+           .ff{
+            border: none;
+            margin-top: 18px;
+            margin-left: 12px;
+           }
+           .ade{
+            width: 400px;
+            height: 395px;
+            background-color:white ;
+            margin-top: 30px;
+            border: 1px solid grey;
+           }
+           .sewa{
+            width: 400px;
+            height: 180px;
+            background-color: white;
+            margin-top: 30px;
+            border: 10px;
+            border: 1px solid grey;
+
+           }  
+           .capsa{
+            margin-top: 50px;
+            margin-left: 55px;
+           } 
+           .bvgui{
+            width: 155px;
+            height: 155px;
+            background-color: rgb(178,93,31);
+            border-radius: 100%;
+            margin-left: 120px;
+            margin-top: 0px;
+            position: absolute;
+            margin-top: 30px;
+           }
+           .bvgui h1{
+            font-size: 78px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 48px;
+            margin-top: 33px;
+            color: white;
+           }
+           .oirl{
+            width: 70px;
+            height:22px;
+            position: absolute;
+            border-radius: 20px;
+            margin-left: 297px;
+            margin-top: 30px;
+            border: 1px solid green;
+            background-color: white;
+           }
+           .oirl h6{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            color: green;
+            margin-top: -2px;
+           }
+           .kkjnb{
+            margin-top: 200px;
+            margin-left: 75px;
+           }
+           .kkjnb:hover{
+            text-decoration: underline;
+           }
+           .kkjnb h2{
+            font-size: 21px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(0, 0, 0, 0.836);
+           }
+           .dsxerk{
+            width: 170px;
+            height: 40px;
+            background-color: rgba(0, 0, 0, 0.842);
+            position: absolute;
+            margin-top: -50px;
+            margin-left: 80px;
+            display: none;
+            border-radius: 5px;
+           }
+           .dsxerk h4{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 13px;
+           }
+           .fredc:hover .dsxerk{
+            display: block;
+           }
+           .uiux{
+            width: 25px;
+            height: 25px;
+            background-color: transparent;
+            border-radius: 100%;
+            margin-left: 262px;
+            margin-top: -23px;
+           }
+           .walley{
+            width: 41px;
+            height: 17px;
+            border-radius: 20px;
+            border: none;
+            background-color: rgb(255,98,173);
+           }
+           .fcdtyl{
+            margin-left: 290px;
+            margin-top: -23px;
+           }
+           .walley h6{
+            color: white;
+            font-size: 11px;
+           }
+           .hhjjgg{
+            margin-left: 8px;
+            margin-top: 12px;
+        }
+           .fvxty{
+            width: 165px;
+            height: 40px;
+            background-color: rgba(0, 0, 0, 0.842);
+            position: absolute;
+            margin-top: -50px;
+            margin-left: 190px;
+            border-radius: 5px;
+            display: none;
+            }
+            .fvxty h4{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                font-size: 15px;
+                margin-top: 10px;
+                margin-left: 10px;
+               }
+            .vcuio:hover .fvxty{
+                display: block;
+            }  
+            .ranmi{
+                margin-top: 10px;
+                margin-left: 134px;
+            } 
+            .ranmi h4{
+                color: gray;
+                font-size: 17px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+            }
+            .gdopl{
+            width: 25px;
+            height: 25px;
+            background-color: transparent;
+            border-radius: 100%;
+            margin-left: 185px;
+            margin-top: 5px;
+            }
+            .hhjjg{
+                margin-left: 6px;
+                margin-top: 12px;
+            }
+        .segun{
+            width: 340px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.603);
+            background-color: white;
+        }
+        .sheyi{
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+        .fsxpp h4{
+            color: rgba(0, 0, 0, 0.603);
+            font-size: 15px;
+        }
+        .segun:hover{
+            background-color: rgba(0, 0, 0, 0.596);
+            border: none;
+        }
+        .segun:hover .fsxpp h4{
+        color: white;
+        }
+        .fair{
+            margin-top: 8px;
+        }
+        .lo{
+            margin-top: 18px;
+            margin-left: 15px;
+           }
+           .hg{
+            width: 50px;
+            height: 50px;
+           } 
+           .bvc{
+            margin-left: 40px;
+            margin-top: 40px;
+           } 
+           .frl{
+            width: 123px;
+            height: 42px;
+            background-color: rgb(29,191,115);
+            margin-left: 125px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 3px;
+           }  
+           .jjvc{
+            width: 383px;
+            height: 48px;
+            background-color: rgba(0, 0, 0, 0.863);
+            position: absolute;
+            margin-top: -55px;
+            margin-left: 125px;
+            border-radius: 5px;
+            display: none;
+           }            
+        .jjvc h3{
+            color: white;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            margin-top: 13px;
+            margin-left: 9px;
+        }
+           .iuy{
+            width: 110px;
+            height: 20px;
+            background-color: white;
+            position: absolute;
+            border-color: black;
+            border-style: outset;
+            margin-left: 100px; 
+            margin-top: -20px; 
+            display: none;
+            transition: 3s all linear;
+             }
+             .iuy h6{
+                font-weight: lighter;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                margin-top: 3px;
+                margin-left: 5px;
+             }
+             .hg:hover .jjvc{
+                display: block;
+             }
+             .hg:hover .iuy{
+                display: block;
+             }
+             .drtg{
+                background-color:white;
+                width: 150px;
+                height: 30px;
+                margin-top: 25px;
+                
+            }
+            .km{
+                width:150px;
+                height: 30px;
+                background-color: white;
+                margin-top: 25px;
+            }
+            .krit{
+                display: flex;
+                justify-content: space-between;
+                }
+                .km h5{
+                    font-size: 17px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-left: 29px;
+                    margin-top: 5px;
+                }
+                .drtg h5{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 15px;
+                    color: rgba(0, 0, 255, 0.856);
+                    margin-top: 5px;
+                    margin-left: 5px;
+                    font-weight: lighter;
+                }
+                .hid{
+                    width: 332px;
+                    height: 45px;
+                    background-color: rgba(0, 0, 0, 0.904);
+                    position: absolute;
+                    margin-top: -27px;
+                    margin-left: 27px;
+                    border-radius: 5px;
+                    display: none;
+                }
+                .hid h6{
+                color: white;
+                font-size: 13.5px;
+                margin-top: 5px;
+                margin-left: 7px;
+                }
+                .drtg h5:hover{
+                    text-decoration: underline;
+                }
+                .krit:hover .hid{
+                    display: block;
+                }
+                .drtg h5:hover .hid{
+                    display: block;
+                }
+                .drto{
+                    background-color:white;
+                    width: 150px;
+                    height: 30px;
+                    margin-top: 25px;
+                    
+                }
+                .kmv{
+                    width:150px;
+                    height: 30px;
+                    background-color: white;
+                    margin-top: 25px;
+                }
+                .kriter{
+                    display: flex;
+                    justify-content: space-between;
+                    }
+                    .kmv h5{
+                        font-size: 17px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        margin-left: 29px;
+                        margin-top: 5px;
+                    }
+                    .drto h5{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 15px;
+                        color: rgba(0, 0, 255, 0.856);
+                        margin-top: 5px;
+                        margin-left: 85px;
+                        font-weight: lighter;
+                    }
+                    .hidden{
+                        width: 220px;
+                        height: 28px;
+                        background-color: rgba(0, 0, 0, 0.904);
+                        position: absolute;
+                        margin-top: -10px;
+                        margin-left: 27px;
+                        border-radius: 5px;
+                        display: none;
+                    }
+                    .hidden h6{
+                    color: white;
+                    font-size: 13.5px;
+                    margin-top: 5px;
+                    margin-left: 12px;
+                    }
+                    .drto h5:hover{
+                        text-decoration: underline;
+                    }
+                    .kriter:hover .hidden{
+                        display: block;
+                    }
+                    .drto h5:hover .hidden{
+                        display: block;
+                    }
+                    .gvry{
+                        width: 130px;
+                        height: 22px;
+                        background-color: white;
+                        position: absolute;
+                        margin-top: 73px;
+                        margin-left: 29px;
+                    }
+                    .gvry h6{
+                        margin-left: 60px;
+                        margin-top: -15px;
+                        font-size: 14px;
+                        font-weight: lighter;
+                        color: rgba(0, 0, 0, 0.336);
+                    }
+                    .gvry h5{
+                        color:rgba(0, 0, 0, 0.616);
+                        font-size: 15px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: lighter;
+                    }
+  .kmfr{
+    width:190px;
+    height: 30px;
+    background-color:white ;
+    margin-top: 25px;
+}
+.kritom{
+    
+    }
+    .kmfr h5{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 29px;
+        margin-top: 5px;
+    }
+    .hiddom{
+        width: 332px;
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0.904);
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 27px;
+        border-radius: 5px;
+        display: none;
+    }
+    .hiddom h6{
+    color: white;
+    font-size: 13.5px;
+    margin-top: 10px;
+    margin-left: 7px;
+    }
+    .kritom:hover .hiddom{
+        display: block;
+    }
+    .azeez{
+        width: 90px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+    }
+    .azeez h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: lighter;
+        color:  rgb(0, 0, 255);
+        margin-left: -20px;
+    }
+    .dxsar{
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    
+    .aza{
+        width: 90px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+    }
+    .aza h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: lighter;
+        color:  rgb(0, 0, 255);
+    }
+    .dxsa:hover .aza h4{
+        text-decoration: underline;
+    }
+    .dxsar:hover .azeez h4{
+        text-decoration: underline;
+    }
+    .dxsa{
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    .hgti{
+        width: 725px;
+        height: 485px;
+        background-color:white;
+        margin-left: 510px;
+         margin-top: -454px;
+         border: 1px solid grey;
+         
+    }
+    .bhut{
+        margin-top: 100px;
+        margin-left: 170px;
+        position: absolute;
+        }
+        .gfrdt{
+            width: 170px;
+            height: 43px;
+            background-color: rgb(29,191,115);
+            border-radius: 4px;
+            border: none;
+        }
+        .bbcv{
+            margin-top: 310px;
+            margin-left: 269px;
+            position: absolute;
+        }
+        .gfrdt h4{
+         color: white;
+         font-size: 16px;
+        }
+        .frl h4{
+            color: white;
+            font-size: 16px;
+           }
+           .bbhhdd{
+            width: 100%;
+            height: 500px;
+            background-color: white;
+           }
+           .ire{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 70px;
+            }
+            .omg h6{
+                color: rgba(0, 0, 0, 0.212);
+                font-weight: 600;
+                font-size: 15px;
+            }
+            .ssssw{
+            
+                position: absolute;
+            }
+        .omg a{
+            font-size: 17px;
+            color: grey;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .omg a:hover{
+            text-decoration: underline;
+        }
+        .kkih{
+            width: 100%;
+            height: 80px;
+            background-color: transparent;
+        }
+        .nut{
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            margin-right: 5px;
+            border: none;
+            border-radius: 100%;
+        }
+        .fpo{
+            display: flex;
+            right: 0;
+            position: absolute;
+            margin-top: -60px;
+            margin-right: 40px;
+        }
+        .nut:hover{
+            background-color:rgba(128, 128, 128, 0.377) ;
+        }
+        .ggaa{
+            width: 90px;
+            height: 40px;
+            background-color: transparent;
+            margin-right: 5px;
+            border: none;
+            border-radius: 30px;
+        }
+        .iif{
+            width: 60px;
+            height: 40px;
+            background-color: transparent;
+            margin-right: 5px;
+            border: none;
+            border-radius: 30px;
+        }
+        .oop{
+            width: 37px;
+            height: 37px;
+            background-color: transparent;
+            margin-right: 5px;
+            border-color: black;
+            border-radius: 100%;
+        }
+        .oop:hover{
+            background-color:rgba(128, 128, 128, 0.377);
+             border: none;
+        }
+        .ssa{
+            color: rgba(0, 0, 0, 0.555);
+            font-weight: 500;
+        }
+        .ggaa:hover{
+            background-color:rgba(128, 128, 128, 0.377)
+        }
+        .ggaa:hover .ssa{
+            color: black;
+        }
+        .iif:hover{
+            background-color:rgba(128, 128, 128, 0.377)
+        }
+        .iif:hover .ssb{
+            color: black;
+        }
+        .ssb{
+            color: rgba(0, 0, 0, 0.555);
+            font-weight: 500;
+        }
+
+        @media(max-width: 1115px){
+            .gg{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width: 1115px){
+            {
+                width: 100%;
+                margin-right: 500px;
+            }
+        }
+        @media(max-width: 1115px){
+            .hgti{
+                width: 300px;
+                margin-right: 10px;
+            }
+        }
+        @media(max-width: 1115px){
+            .baba{
+                width: 300px;
+                margin-left: -170px;
+            }
+        }
+        @media(max-width: 1115px){
+            .gfrdt{
+              margin-left: -210px; 
+               }
+            }
+            @media(max-width: 1115px){
+                .phd{
+                    overflow: hidden;
+                    
+                }
+            }
+            
+           
+            @media(max-width: 1115px){
+                .dd{
+                    width: 700px;
+                    
+                }
+            }
+            
+            @media(max-width: 1115px){
+                .cara{
+                     
+                    
+                
+            
+                }
+            }
+            @media(max-width: 1115px){
+                .jjj{
+                  width: 100%;
+                  overflow-x: hidden;   
+                    
+                
+            
+                }
+            }
+            
+            
+        
+        
+        
+         

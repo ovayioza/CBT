@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aj{
+    background-color: rgb(77,23,39);
+    width: 100%;
+    height: 790px;
+}
+.ps{
+    background-color: rgb(77,23,39) ;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+}
+.kj{
+    margin-left: 20px;
+}
+.jh{
+    width: 60px;
+    height: 25px;
+    background-color: transparent;
+    margin-right: 20px;
+    border: none;
+    
+}
+.iu{
+    width: 118px;
+    height: 35px;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-top: -25px;
+   border: 1px solid rgb(255,118,64);
+   border-radius: 5px;
+}  
+.mn{
+    width: 150px;
+    height: 35px;
+    margin-right: 60px;
+    margin-top: -25px;
+    background-color: transparent;
+    border: 1px solid rgb(255,118,64);
+    border-radius: 5px;
+}
+.pu{
+    display: flex;
+    right: 0;
+    position: absolute;
+    margin-top: -50px;
+}
+.hg{
+    width: 60px;
+    height: 4px;
+    background-color:  rgb(255,118,64);
+    display: none;
+}
+.u{
+    width: 100px;
+    height: 25px;
+    background-color:transparent;
+    margin-right: 20px;
+    border: none;
+}
+.gv{
+    width: 95px;
+    height: 4px;
+    background-color:  rgb(255,118,64);
+    display: none;
+}
+.jh h5{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    }
+.u h5{
+    color: white;
+    font-size: 16px;
+    font-weight: 700; 
+}
+.iu h6{
+    color:  rgb(255,118,64);
+    margin-top: 5px;
+}
+.mn h6{
+    color:  rgb(255,118,64);
+    margin-top: 5px;
+}
+.ppo:hover .hg{
+    display: block;
+}
+.gtr:hover .gv{
+    display: block;
+}
+.plo{
+    margin-top: 78px;
+}
+.vd{
+    margin-top: 110px;
+}
+.ytr{
+    width: 290px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+}
+.jht{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.ki{
+    border: none;
+}
+.pot{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+}
+.ytr h6{
+    font-size: 21px;
+    color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 0;
+    position: absolute;
+    margin-top: -15px;
+    font-weight: 500;
+}
+.kjg{
+    margin-top: 140px;
+}
+.son{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.nos{
+    background-color: white;
+    width: 100%;
+    height: 850px;
+    margin-top: 200px;
+}
+.ogf{
+    width: 327px;
+    height: 327px;
+}
+.of{
+    width: 327px;
+    height: 327px;
+    margin-top: 16px;
+}
+.ofo{
+    width: 670px;
+    height: 670px;
+    margin-top: -701px;
+    margin-left: 338px;
+}
+.oo{
+    width: 327px;
+    height: 327px; 
+    margin-left: 1020px;
+    margin-top: -1092px;
+}
+.oto{
+    width: 327px;
+    height: 327px;
+    margin-left: 1020px;
+    margin-top: -455px;
+}
+.zx{
+    width: 100%;
+    height: 790px;
+    background-color: white;
+}
+.gvv{
+    margin-top: 40px;
+}
+.pps{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(255,245,248);
+}
+.ggt{
+    margin-top: 30px;
+}
+.or{
+    width: 407px;
+    height: 200px;
+    background-color: rgb(255,255,255);
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.mo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dr{
+    margin-top: -20px;
+}
+.bby h6{
+    color: tomato;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bby{
+    margin-top: 15px;
+    margin-right: 260px;
+}
+.or:hover .bby{
+    text-decoration: underline tomato;
+}
+.dss{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(77,23,39) ;
+}
+.yr{
+    margin-top: 70px;
+}
+.hh{
+    width: 158px;
+    height: 43px;
+    background-color: rgb(255,118,64);
+    border: none;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+.hh h6{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+.hh:hover{
+    background-color: orangered;
+}
+.vgd{
+    height: 790px;
+    width: 100%;
+    background-color: white;
+}
+.ire{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    }
+    .omg h6{
+        color: rgba(0, 0, 0, 0.212);
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .ssssw{
+        margin-left: -31px;
+        position: absolute;
+    }
+.omg a{
+    font-size: 17px;
+    color: grey;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.omg a:hover{
+    text-decoration: underline;
+}
+.dw{
+    margin-top: 50px;
+}
+.vel{
+    width: 100%;
+    height: 77px;
+    background-color: transparent;
+}
+.nut{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-right: 5px;
+    border: none;
+}
+.fpo{
+    display: flex;
+    right: 0;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 40px;
+}

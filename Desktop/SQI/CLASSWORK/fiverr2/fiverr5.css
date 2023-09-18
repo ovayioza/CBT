@@ -1,0 +1,552 @@
+*{
+margin: 0;
+padding: 0;
+}
+.fara{
+    width: 100%;
+    height: 1700px;
+    background-color: white;
+}
+.gg{
+    width: 100%;
+    height: 82px;
+    background-color: white;
+}
+.ii{
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+.dd{
+    width: 810px;
+    height: 41px;
+
+    border: 1px solid grey;
+
+}
+.vc{
+    margin-left: 160px;
+    margin-top: -42px;
+}
+.gf{
+    width: 50px;
+    height: 41px;
+   position: absolute;
+   border: none;
+   background-color: black;
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.dd::placeholder{
+    font-size: 17px;
+    color: gray;
+    }
+    .bb{
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        margin-right: 10px;
+        border-radius: 100%;
+        border: none;
+        }
+    .bl{
+        width: 60px;
+        height: 30px;
+        background-color: transparent;
+        margin-left: 15px;
+        margin-top: 4px;
+        border: none;
+    }
+    .jnllp{
+        width: 190px;
+        height: 390px;
+        background-color: white;
+        position: absolute;
+        right: 30px;
+        top: 60px;
+        border-radius: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.685);
+        display: none;
+    }
+    .kill{
+        margin-top: 5px;
+    }
+    .harness:hover .hass h3{
+        color:rgb(29,191,115);
+    }
+    .vh:focus-within .jnllp{
+        display: block
+    }
+    .hass a{
+        text-decoration: none;
+    }
+    .harness{
+  width: 170px;
+  height: 25px;
+  background-color: transparent;
+  margin-left: 10px;
+  border: none;
+  margin-top: 5px;
+    }
+    .tees{
+        width: 1200px;
+        margin-left: 20px;
+        margin-top: 50px;
+        height: 200px;
+        
+       }
+      .seet{
+        width: 1200px;
+        margin-left: 20px;
+        margin-top: 50px;
+        height: 200px;
+        
+      } 
+    .hass{
+        right: 0;
+    }
+    .hass h3{
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color: gray;
+align-content: end;
+margin-top: 1px;
+font-weight: bold;
+}
+.hass h4{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(29,191,115);
+    align-content: end;
+    margin-top: 1px;
+    font-weight: bold;
+    }
+    .jj{
+        display: flex;
+    margin-left: 1050px;
+    margin-top: -40px;
+    }
+    .bc{
+        width: 35px;
+        height: 35px;
+        background-color: rgb(178,93,31);
+        margin-left:17px;
+        border-radius: 100%;
+        border: none;
+        }
+        .bl h3{
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        .bc h1{
+            color: white;
+            margin-top: -12px;
+        }
+        .by{
+            width: 110px;
+            height: 45px;
+            background-color: rgba(0, 0, 0, 0.849);
+            margin-left: -30px;
+            position: absolute;
+            border-radius: 5px;
+            margin-top: -3px;
+            display: none;
+        }
+        .by h4{
+            color: white;
+            margin-top: 12px;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        .vh:hover .by{
+            display: block;
+        }
+        .bi{
+            width: 85px;
+            height: 45px;
+            background-color: rgba(0, 0, 0, 0.863);
+            margin-left: -20px;
+            position: absolute;
+            border-radius: 5px;
+            margin-top: -3px;
+            display: none;
+    }
+    .bi h4{
+        color: white;
+        margin-top: 12px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .vh:hover .bi{
+        display: block;
+    }
+    .bp{
+        width: 60px;
+        height: 45px;
+        background-color: rgba(0, 0, 0, 0.863);
+        margin-left: -9px;
+        position: absolute;
+        border-radius: 5px;
+        margin-top: -3px;
+        display: none;
+        }
+        .bp h4{
+            color: white;
+            margin-top: 12px;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        .vh:hover .bp{
+            display: block;
+        }
+        .jjj{
+            width: 100%;
+            height: 37px;
+            background-color:white;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 2px;
+            border-top: 0.5px solid grey;
+            border-bottom: 0.5px solid grey;
+            }
+           .pvc h5{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(0, 0, 0, 0.637);
+            font-weight: lighter;
+           }
+           .vjj h5{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:  rgba(0, 0, 0, 0.637);
+            font-weight: lighter;
+           }
+           .vjp h5{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:  rgba(0, 0, 0, 0.637);
+            font-weight:lighter ;
+           }
+           .vjp{
+            width: 90px;
+            height: 22px;
+            margin-top: 5px;
+            border: none;
+            background-color: transparent;
+           }
+           .gcc{
+            width: 145px;
+            height: 3px;
+            background-color: green;
+            margin-top: 6px;
+            display: none;
+           }
+           .frt:hover .gcc{
+            display: block;
+           }
+           .gck{
+            width: 115px;
+            height: 3px;
+            background-color: green;
+            margin-top: 6px;
+            display: none;
+           }
+           .frt:hover .gck{
+            display: block;
+           }
+           .gcg{
+            width: 90px;
+            height: 3px;
+            background-color: green;
+            margin-top: 6px;
+            display: none;
+           }
+           .frt:hover .gcg{
+            display: block;
+           }
+           .dou{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: 25px;
+            z-index: 1;
+           }
+           .frt:hover .dou{
+            display: block;
+           }
+           .dq{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: 5px;
+            z-index: 1;
+           }
+           .frt:hover .dq{
+            display: block;
+           }
+           .dr{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left:-290px;
+            z-index: 1;
+           }
+           .frt:hover .dr{
+            display: block;
+           }
+           .dv{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -465px;
+            z-index: 1;
+           }
+           .frt:hover .dv{
+            display: block;
+           }
+           .df{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -320px;
+            z-index: 1;
+           }
+           .frt:hover .df{
+            display: block;
+           }
+           .db{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -775px;
+            z-index: 1;
+           }
+           .frt:hover .db{
+            display: block;
+           }
+           .ddv{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -310px;
+            z-index: 1;
+           }
+           .frt:hover .ddv{
+            display: block;
+           }
+           .dj{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            margin-left: -1073px;
+            z-index: 1;
+           }
+           .frt:hover .dj{
+            display: block;
+           }
+           .ddl{
+            display: none;
+            height: 400px;
+            width: 500px;
+            position:absolute;
+            margin-left: -535px;
+            z-index: 1;
+           }
+           .frt:hover .ddl{
+            display: block;
+           }
+           .pvc{
+            width:170px;
+            height: 22px;
+            margin-top: 5px;
+            border: none;
+            background-color: transparent;
+           }
+           .vjj{
+            width: 120px;
+            height: 22px;
+            margin-top: 5px;
+            border: none;
+            background-color: transparent;
+           }
+           .nnggu{
+            width: 1280px;
+            height: 120px;
+            background-color: white;
+            margin-left: 35px;
+            border-radius: 7px;
+            border: 1px solid grey;
+           }
+           .ghuyd{
+         margin-left: 1105px;
+         margin-top: -70px;
+           }
+           .nnbg{
+            width: 150px;
+            height: 43px;
+            background-color: rgb(239,239,240);
+            border: none;
+            border-radius: 4px;
+}
+.nnbg:hover{
+    background-color: rgba(0, 0, 0, 0.137);
+}
+.nnbg h4{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: 700;
+}
+  .kjhip{
+    width: 1288px;
+    height: 410px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.76);
+    margin-left: 33px;
+    border-radius: 5px;
+  }
+  .zahar{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  .zahar h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .zahar:hover{
+    text-decoration: underline;
+  }
+  .hello{
+    width: 1285px;
+    height:400px;
+    background-color:white;
+    margin-left: 33px;
+    border: 1px solid rgba(128, 128, 128, 0.589);
+    margin-top: 40px;
+    border-radius: 5px;
+  }  
+  .cfxz{
+    width: 100%;
+    height: 285px;
+    background-color: white;
+  } 
+  .jjklp{
+    margin-top: 60px;
+    width: 1280px;
+    margin-left: 35px;
+  }  
+  .bbhhdd{
+    width: 100%;
+    height: 560px;
+    background-color: white;
+  } 
+  .ire{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    }
+    .omg h6{
+        color: rgba(0, 0, 0, 0.212);
+        font-weight: 600;
+        font-size: 15px;
+        
+    }
+    .ssssw{
+        margin-left: -31px;
+        position: absolute;
+    }
+
+.omg a{
+    font-size: 17px;
+    color: grey;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.omg a:hover{
+    text-decoration: underline;
+}
+.kkih{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+}
+.nut{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    margin-right: 5px;
+    border: none;
+    border-radius: 100%;
+}
+.fpo{
+    display: flex;
+    right: 0;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 40px;
+}
+.nut:hover{
+    background-color:rgba(128, 128, 128, 0.377) ;
+}
+.ggaa{
+    width: 90px;
+    height: 40px;
+    background-color: transparent;
+    margin-right: 5px;
+    border: none;
+    border-radius: 30px;
+}
+.iif{
+    width: 60px;
+    height: 40px;
+    background-color: transparent;
+    margin-right: 5px;
+    border: none;
+    border-radius: 30px;
+}
+.oop{
+    width: 37px;
+    height: 37px;
+    background-color: transparent;
+    margin-right: 5px;
+    border-color: black;
+    border-radius: 100%;
+}
+.oop:hover{
+    background-color:rgba(128, 128, 128, 0.377);
+     border: none;
+}
+.ssa{
+    color: rgba(0, 0, 0, 0.555);
+    font-weight: 500;
+}
+.ggaa:hover{
+    background-color:rgba(128, 128, 128, 0.377)
+}
+.ggaa:hover .ssa{
+    color: black;
+}
+.iif:hover{
+    background-color:rgba(128, 128, 128, 0.377)
+}
+.iif:hover .ssb{
+    color: black;
+}
+.ssb{
+    color: rgba(0, 0, 0, 0.555);
+    font-weight: 500;
+}
+
+
+
+ 

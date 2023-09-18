@@ -1,0 +1,673 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nh{
+    background-color: rgb(13,8,77);
+    width: 100%;
+    height: 580px;
+}
+.bg{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(13,8,77) ;
+    position: fixed;
+    z-index: 1;
+
+}
+.fc{
+    width: 165px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(13,8,77) ;
+    border: none;
+}
+.xd{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(13,8,77) ;
+    border: none;  
+}
+.de{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(13,8,77) ;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+}
+.ws{
+    width: 210px;
+    height: 42px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+.fg{
+    right: 0;
+    position: absolute;
+    margin-top: -45px;
+    margin-right: 30px;
+    }
+    .fc h6{
+        color: white;
+        font-size: 17px;
+    }
+    .xd h6{
+        color: white;
+        font-size: 17px;
+    }
+    .ws h6{
+        color:blue;
+        font-size: 17px;
+    }
+    
+    .de:hover{
+     background-color: rgba(0, 0, 0, 0.185);
+    }
+    .xd:hover{
+     background-color: rgba(0, 0, 0, 0.185);
+    }
+    .fc:hover{
+     background-color: rgba(0, 0, 0, 0.185);
+    }
+    .preety{
+        width: 830px;
+        height: 88vh;
+        background-color: white;
+position: absolute;
+        margin-left:-450px ;
+        margin-top: -58px;
+        border-radius: 13px;
+        display: none;
+        
+    }
+    .oppor{
+        display: flex;
+    }
+    .slama{
+        width: 430px;
+        height: 573px;
+        border-top-right-radius: 13px;
+        border-bottom-right-radius: 13px;
+    }
+    .mail{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .kareem{
+        margin-left: 10px;
+    }
+    .brother{
+        margin-top: 160px;
+        margin-left: -310px;
+    }
+    .june{
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+    .phone{
+        margin-top: 177px;
+    }
+    .pol{
+        width: 360px;
+        height: 48px;
+        border: 1px solid rgba(128, 128, 128, 0.616);
+        border-radius: 5px;
+        background-color: white;
+
+    }
+    .egusi{
+        width:170px ;
+        height: 48px;
+        border: 1px solid rgba(128, 128, 128, 0.616);
+        border-radius: 5px;
+        margin-left: 8px;
+        background-color: white;
+    }
+    .pol h4{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .egusi h4{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .sos{
+        margin-top: 10px;
+    }
+    .fg:focus-within .preety{
+        display: block;
+    }
+    .mudu{
+        position: absolute;
+    }
+    .pp{
+     right: 0;
+        position: absolute;
+        margin-top: -515px;
+    }
+    .gy span{
+        color: yellow;
+
+    }
+    .gy h1{
+        font-size: 70px;
+        color: white;
+    }
+    .gy{
+        position: absolute;
+        margin-left: 50px;
+        margin-top: -450px;
+    }
+    .gy h5{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .ju{
+        width: 440px;
+        height: 30px;
+        margin-top: 8px;
+        outline: none;
+        margin-left: 40px;
+        border: none;
+    }
+    .oi{
+        width: 77px;
+        height: 45px;
+        background-color: rgb(29,191,115);
+        margin-top: 30px;
+        position: ;
+        border: none;
+        margin-left: 522px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 7px;
+    }
+    .fyu{
+        width: 520px;
+        height: 45px;
+        background-color: white;
+        margin-top: 30px;
+        position: absolute;
+        margin-left: 2px;
+        }
+        .oi h6{
+            color: white;
+            font-weight: 700;
+        }
+        .ddr{
+            width: 100%;
+            height: 120px;
+            background-color: rgb(246,246,255);
+        }
+        .op{
+            width: 100px;
+            height: 60px;
+            background-color:  rgb(246,246,255);
+        }
+        .gre{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 30px;
+        }
+        .gbx{
+          width: 100%;
+          height: 600px;
+          background-color: white;  
+        }
+        .gio{
+            margin-top: 50px;
+            margin-left: 60px;
+        }
+        .gus{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 40px;
+            margin-top: -35px;
+        }
+        .xcv{
+            margin-top: 30px;
+        }
+        .put{
+            border: none;
+        }
+        .cdr{
+            background-color: white;
+            width: 100%;
+            height: 700px;
+        }
+        .hut{
+            margin-top: 50px;
+        }
+        .gcr{
+            width: 100%;
+            height: 500px;
+            background-color: white;
+        }
+        .kji{
+            width: 100%;
+            height: 550px;
+            background-color: white;
+        }
+        .htmo{
+            background-color: white;
+            width: 100%;
+            height: 450px;
+        }
+        .geq{
+            background-color: white;
+            width: 100%;
+            height: 450px;
+        }
+        .bet{
+            overflow: hidden;
+        }
+        .bet h2{
+            text-align: center;
+            margin-top: 70px;
+        }
+        .mad{
+            display: flex;
+            justify-content: space-between;
+            font-size: 55px;
+            align-items: center;
+            margin-left: -100px;
+            color: gray;
+        }
+        .bb:hover{
+            transform: scaleX(1.2);
+            font-weight: 600;
+            color: black;
+        }
+        .cup{
+            width: 100%;
+            height: 700px;
+            background-color:white ;
+        }
+        .gpw{
+            margin-left: 30px;
+        }
+        .mat{
+            width: 100%;
+            height: 40px;
+            background-color: white;
+            border: none;
+        }
+        .fpr{
+           width: 100%;
+           height: 60px; 
+           background-color: white;
+           display: none;
+        }
+        .sss:focus-within .fpr{
+            display: block;
+        }
+        .mat h5{
+            left: 0;
+            position: absolute;
+            margin-left: 47px;
+        }
+        .fpr h6{
+            margin-left: 46px;
+            margin-top: 30px;
+        }
+        .fp{
+            width: 100%;
+           height: 80px; 
+           background-color: white;
+           display: none; 
+        }
+        .fp h6{
+            margin-left: 46px;
+            margin-top: 30px;
+        }
+        .sss:focus-within .fp{
+            display: block;
+        }
+        .fr{
+            width: 100%;
+           height: 40px; 
+           background-color: white;
+           display: none; 
+        }
+        .fr h6{
+            margin-left: 46px;
+            margin-top: 30px;
+        }
+        .sss:focus-within .fr{
+            display: block;
+        }
+        .gpx{
+            margin-top: 50px;
+        }
+        .bts{
+            width: 100%;
+            height: 480px;
+            background-color: rgb(243,253,249);
+        }
+        .jio{
+            background-color: rgb(13,8,77);
+            height: 280px;
+            width: 100%;
+        }
+        .ert{
+            margin-top: 35px;
+        }
+        .ber{
+            height: 45px;
+            width: 600px;
+            background-color: white;
+            margin-right: 50px;
+            margin-top: 35px;
+        }
+        .ryn{
+            width: 540px;
+            height: 35px;
+            margin-top: 5px;
+            outline: none;
+            border: none;
+        }
+        .fek{
+            width: 50px;
+            height: 45px;
+            background-color: rgb(29,191,115);
+            border: none;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-left:275px;
+            margin-top: -45px;
+            position: absolute;
+        }
+        .edd{
+            width: 70%;
+            margin: auto;
+        }
+        .kkih{
+            width: 100%;
+            height:85px;
+            background-color: transparent;
+        }
+        .nut{
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            margin-right: 5px;
+            border: none;
+            border-radius: 100%;
+        }
+        .fpo{
+            display: flex;
+            right: 0;
+            position: absolute;
+            margin-top: -60px;
+            margin-right: 40px;
+        }
+        .nut:hover{
+            background-color:rgba(128, 128, 128, 0.377) ;
+        }
+        .ggaa{
+            width: 90px;
+            height: 40px;
+            background-color: transparent;
+            margin-right: 5px;
+            border: none;
+            border-radius: 30px;
+        }
+        .iif{
+            width: 60px;
+            height: 40px;
+            background-color: transparent;
+            margin-right: 5px;
+            border: none;
+            border-radius: 30px;
+        }
+        .oop{
+            width: 37px;
+            height: 37px;
+            background-color: transparent;
+            margin-right: 5px;
+            border-color: black;
+            border-radius: 100%;
+        }
+        .oop:hover{
+            background-color:rgba(128, 128, 128, 0.377);
+             border: none;
+        }
+        .ssa{
+            color: rgba(0, 0, 0, 0.555);
+            font-weight: 500;
+        }
+        .ggaa:hover{
+            background-color:rgba(128, 128, 128, 0.377)
+        }
+        .ggaa:hover .ssa{
+            color: black;
+        }
+        .iif:hover{
+            background-color:rgba(128, 128, 128, 0.377)
+        }
+        .iif:hover .ssb{
+            color: black;
+        }
+        .ssb{
+            color: rgba(0, 0, 0, 0.555);
+            font-weight: 500;
+        }
+        .kkkkk{
+            margin-top: 18px;
+        }
+        @media(max-width:1115px){
+            .nh{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .bg{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .jamjam{
+                width:500px;
+                
+            }
+        }
+        @media(max-width:1115px){
+            .ju{
+                width: 350px;
+            
+            }
+        }
+        @media(max-width:1115px){
+            .fyu{
+                width: 450px;
+            
+            }
+        }
+        @media(max-width:1115px){
+            .gy{
+                width: 500px;
+            
+            }
+        }
+        @media(max-width:1115px){
+            .oi{
+                margin-top: 90px;
+                position: absolute;
+                margin-left: -10px;
+                width: 480px;
+                border-radius: 5px;
+                
+            }
+        }
+        @media(max-width:1115px){
+            .ddr{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .gbx{
+                width: 100%;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+        }
+        @media(max-width:666px){
+            .xcv{
+            
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .cdr{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:934px){
+            .eminado{
+                width: 700px;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:705px){
+            .gpx{
+                width: 450px;
+            overflow-x: hidden;
+            }
+        }
+        @media(max-width:666px){
+            .gpx{
+                width: 200px;
+            overflow-x: hidden;
+            }
+        }
+        @media(max-width:666px){
+            .mat{
+                width: 100px;
+            overflow-x: hidden;
+            }
+        }
+        @media(max-width:666px){
+            .fp{
+                width: 100px;
+            overflow-x: hidden;
+            }
+        }
+        @media(max-width:705px){
+            .jio{
+                width: 450px;
+            overflow-x: hidden;
+            }
+        }
+        @media(max-width:666px){
+            .fpo{
+                display: none;
+            overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .yesy{
+                width: 1110px;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1082px){
+            .yesy{
+                width: 1000px;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1040px){
+            .yesy{
+                width: 900px;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1010px){
+            .yesy{
+                width: 800px;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:785px){
+            .yesy{
+                width: 700px;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:685px){
+            .yesy{
+                width: 600px;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .yesa{
+                width: 500px;
+                overflow-x: hidden;
+            }
+        }
+        
+        @media(max-width:1115px){
+            .gcr{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .kji{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .htmo{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .geq{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .cup{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .bts{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .jio{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+        @media(max-width:1115px){
+            .kkih{
+                width: 100%;
+                overflow-x: hidden;
+            }
+        }
+
+
+
+    
+    
