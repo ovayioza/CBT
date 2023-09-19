@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="tbt.css">
+</head>
+<body>
+  <main>
+    <p id="time" style="background-color: aliceblue; text-align: center;" >01:00</p>
+    <div id="disp"></div>
+    <button id="prevBTN" onclick="prev()">Prev</button>
+    <button id="nextBTN"  onclick="next()">Next</button>
+    <button id="scoreBTN" onclick="showScore()">submit</button>
+  </main>
+</body>
+  <script>
+    let queCount = 0
+
+    let prevBTN = document.getElementById("prevBTN");
+    let scoreBTN = document.getElementById("scoreBTN");
+    let nextBTN = document.getElementById("nextBTN"); 
+    let pickedAns = [ ]
+    let score = 0
+    prevBTN.setAttribute("disabled", true)
+    scoreBTN.style.display = "none";
+
+    let cbt = [ 
+        {
+            que: "What is your favourite color"  ,
+            opt:["white", "Red", "Purple", "Pink"],
+            ans:"Red",
+        },
+        {
+            que: "What is your best fruit",
+           opt:["pineapple", "watermelon", "Pawpaw", "Grapes"],
+            ans:"pineapple",
+        },
+        {
+            que: "What is your best food",
+            opt:["Rice", "Beans", "Pounded Yam", "Spaghetti"],
+            ans:"Spaghetti",
+        },
+        {
+            que: "What's your nationality",
+            opt:["Egypt", "Sychelles", "Dubai", "Morocco"],
+            ans:"Dubai",
+        },
+        {
+            que: "What is your name",
+            opt:["Dara", "Obinna", "Ayo", "Mitchell"],
+            ans:"Mitchell",
+        }
+        ]
+
+    function showQue(){
+      disp.innerHTML = `<h1>${queCount+1}. ${cbt[queCount].que}</h1>`;
+      cbt[queCount].opt.forEach((el)=>{
+        disp.innerHTML += `<input onchange="pickAns(event)" value="${el}" name="nels" type="radio"/>
+        <span>${el}</span> <br/><br/>
+        `
+      })
+    }
+
+    showQue()
+
+    function next(){
+      prevBTN.removeAttribute("disbled");
+     if(queCount == cbt.length - 1){
+      nextBTN.style.display = "none"
+      scoreBTN.style.display = "initial"
+    }
+    queCount++;
+
+    showQue()
+  }
+    function  prev(){
+      queCount--;
+      if(queCount == 0){
+        prevBTN.setAttribute("disabled", true);
+      }else{}
+        showQue();
+    
+    }
+
+    function pickAns(ev){
+      let selected = ev.target.value
+      pickedAns[queCount] = selected
+      console.log(pickedAns);
+    }
+
+    function showScore(){
+       cbt.forEach((el, i)=>{
+          if(el.ans == pickedAns[i]){
+            score++;
+          }
+       })
+       alert(`You scored ${score} out of ${cbt.length}`)
+    }
+    const startSec = 1
+    let miiliSec =  startSec * 60;
+    
+    const time = document.getElementById("time")
+
+    setInterval(shomer, 1000)
+
+      function shomer(){
+        const minute = Math.floor(miiliSec / 60)
+        let seconds = miiliSec % 60
+
+        time.innerHTML = `${minute}: ${seconds}`;
+        miiliSec--;
+      }
+
+      
+  </script>
+</html>
